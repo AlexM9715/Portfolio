@@ -28,10 +28,11 @@
     color: white;
     font-weight: 800;
     text-align: right;
-    padding: 10px 0;
+    padding: 20px 0;
     padding-right: 30px;
     pointer-events: none;
     font-size: 2.25em;
+    font-family: 'Abel', sans-serif;
 }
 ul {
     position: relative;
@@ -49,6 +50,7 @@ ul li a {
     font-weight: 400;
     text-decoration: none;
     font-size: 1.35em;
+    font-family: 'Abel', sans-serif;
 }
 ul li:hover a {
     color: #00ffff;
@@ -63,8 +65,9 @@ input[type="checkbox"] {
     position: fixed;
     height: 30px;
     width: 30px;
-    top: 14px;
+    top: 26px;
     left: 20px;
+    margin-right: 10px;
     border: 0.8px solid rgba(255, 255, 255, 0.2);
     cursor: pointer;
     border-radius: 2px;
