@@ -1,0 +1,14 @@
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleResume {
+    text-align: center;
+    font-size: 6em;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    margin: 100px 0 40px 0;
+    font-family: 'Source Code Pro', monospace;
+}

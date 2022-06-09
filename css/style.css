@@ -53,7 +53,7 @@ ul li a {
     font-family: 'Abel', sans-serif;
 }
 ul li:hover a {
-    color: #00ffff;
+    color: #fc6d6d;
 }
 
 input[type="checkbox"] {
