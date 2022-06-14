@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2d2d34;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    padding:20px 0px;
+    border-bottom:2px solid black;
+    width: 40%;
+    font-family: 'Oleo Script', cursive;
+    font-size: 70pt;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding:20px 0;
+}
+.picDesc {
+    background-color: #171717;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    height: 400px;
+    width: 700px;
+}
+.text {
+    width: 50%;
+    max-width: fit-content;
+    font-size: 30pt;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.676);
+}
