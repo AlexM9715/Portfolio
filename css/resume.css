@@ -12,3 +12,53 @@
     margin: 100px 0 40px 0;
     font-family: 'Source Code Pro', monospace;
 }
+.resumeBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resumeTech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.subtitle {
+    color: white;
+}
+.download {
+    background-color: #fc6d6d;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18pt;
+    text-decoration: none;
+    border-radius:5px;
+}
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.icon img{
+    /* float: left; */
+    width: 100px;
+    /* height: 100px; */
+    /* object-fit: cover; */
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: .5s;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+.icon p {
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
